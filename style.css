@@ -1,0 +1,66 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f0fc; /* tím pastel nhạt */
+  color: #3a1f4a; /* tím đậm hơn cho chữ */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #e0c5f5;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #3a1f4a;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f3e5f9;
+  min-width: 160px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+main {
+  padding: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #e0c5f5;
+  margin-top: 50px;
+}
